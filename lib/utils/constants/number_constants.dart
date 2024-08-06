@@ -1,0 +1,86 @@
+class NumberConstants {
+  //Integers
+  static const int i0 = 0;
+  static const int i1 = 1;
+  static const int i2 = 2;
+  static const int i3 = 3;
+  static const int i4 = 4;
+  static const int i5 = 5;
+  static const int i6 = 6;
+  static const int i7 = 7;
+  static const int i8 = 8;
+  static const int i9 = 9;
+  static const int i10 = 10;
+  static const int i300 = 300;
+
+
+  //Doubles
+  static const double d0 = 0.0;
+  static const double d0_001 = 0.001;
+  static const double d0_07 = 0.07;
+  static const double d0_1 = 0.1;
+  static const double d0_17 = 0.17;
+  static const double d0_2 = 0.2;
+  static const double d0_3 = 0.3;
+  static const double d0_4 = 0.4;
+  static const double d0_5 = 0.5;
+  static const double d0_6 = 0.6;
+  static const double d0_7 = 0.7;
+  static const double d0_8 = 0.8;
+  static const double d0_60 = 0.60;
+  static const double d0_9 = 0.9;
+  static const double d0_23 = 0.23;
+  static const double d1 = 1;
+  static const double d1_1 = 1.1;
+  static const double d1_2 = 1.2;
+  static const double d1_5 = 1.5;
+  static const double d1_50 = 1.50;
+  static const double d2 = 2;
+  static const double d3 = 3;
+  static const double d4 = 4;
+  static const double d5 = 5;
+  static const double d6 = 6;
+  static const double d7 = 7;
+  static const double d8 = 8;
+  static const double d9 = 9;
+  static const double d10 = 10;
+  static const double d11 = 11;
+  static const double d12 = 12;
+  static const double d14 = 14.0;
+  static const double d1_21 = 1.21;
+  static const double d13 = 13.0;
+  static const double d15 = 15.0;
+  static const double d16 = 16.0;
+  static const double d17 = 17.0;
+  static const double d18 = 18.0;
+  static const double d19 = 19.0;
+  static const double d20 = 20.0;
+  static const double d21 = 21.0;
+  static const double d22 = 22.0;
+  static const double d23 = 23.0;
+  static const double d24 = 24.0;
+  static const double d25 = 25.0;
+  static const double d26 = 26.0;
+  static const double d27 = 27.0;
+  static const double d28 = 28.0;
+  static const double d29 = 29.0;
+  static const double d30 = 30.0;
+  static const double d31 = 31.0;
+  static const double d32 = 32.0;
+  static const double d34 = 34.0;
+  static const double d35 = 35.0;
+  static const double d33 = 33.0;
+  static const double d37 = 37.0;
+  static const double d38 = 38.0;
+  static const double d39 = 39.0;
+  static const double d40 = 40.0;
+  static const double d41 = 41.0;
+  static const double d45 = 45.0;
+  static const double d47 = 47.0;
+  static const double d46 = 46.0;
+  static const double d48 = 48.0;
+  static const double d49 = 49.0;
+  static const double d50 = 50.0;
+  static const double d55 = 55.0;
+
+}
