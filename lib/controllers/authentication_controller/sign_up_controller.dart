@@ -183,29 +183,14 @@ class SignUpController extends GetxController {
     };
     isSignUpLoading(isTrue);
     await postApiService
-        .postApi(postApiUrl: 'userLogin', body: body)
+        .postApi(postApiUrl: 'userRegister', body: body)
         .then((value) {
       SignInModel model = SignInModel.fromJson(value);
 
       if (model.status == isTrue) {
-        SharedPreferencesInitialize.setStringPrefValue(
-            key: SharedPreferencesKey.authToken,
-            value: model.record?.authtoken ?? StringConstants.empty);
-        SharedPreferencesInitialize.setStringPrefValue(
-            key: SharedPreferencesKey.firstName,
-            value: model.record?.firstName ?? StringConstants.empty);
-        SharedPreferencesInitialize.setStringPrefValue(
-            key: SharedPreferencesKey.lastName,
-            value: model.record?.lastName ?? StringConstants.empty);
-        SharedPreferencesInitialize.setStringPrefValue(
-            key: SharedPreferencesKey.userProfile,
-            value: model.record?.profileImg ?? StringConstants.empty);
-        SharedPreferencesInitialize.setStringPrefValue(
-            key: SharedPreferencesKey.userEmail,
-            value: model.record?.email ?? StringConstants.empty);
         showToast(msg: model.message, bgColor: Colors.green);
         isSignUpLoading(isFalse);
-        Get.offAllNamed(AppRoutes.homeView);
+        Get.offAllNamed(AppRoutes.authenticationTab);
       } else {
         showToast(msg: model.message, bgColor: Colors.red);
         isSignUpLoading(isFalse);
